@@ -1,0 +1,12 @@
+spring:
+  application:
+    name: jwt-demo
+
+server:
+  servlet:
+    context-path: /api
+
+jwt:
+  config:
+    expirationTime: 1200000
+    secret: 3bJAp`]4|kzB?~8+
